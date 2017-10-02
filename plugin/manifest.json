@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Simple byte-count plugin",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+      "jquery-3.1.1.js",
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+      "jquery-3.1.1.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+  "browser_action": {
+    "default_title": "Simple byte-count plugin"
+  }
+}

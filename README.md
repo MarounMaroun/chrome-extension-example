@@ -2,10 +2,12 @@
 
 Simple Chrome extension that adds bytes counter next to a textbox in a given HTML page.
 
+![example](images/example.gif)
+
 #### Installation
 
 * Clone the repo
-* Go to `chrome://extensions` 
+* Go to `chrome://extensions`
 * Click "Load unpacked extension..."
 * Select "plugin" directory form this project
 

@@ -4,6 +4,8 @@ Simple Chrome extension that adds bytes counter next to a textbox in a given HTM
 
 ![example](images/example.gif)
 
+---
+
 #### Installation
 
 * Clone the repo
